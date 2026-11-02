@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-tampa-fl#service",
+      "name": "Website design in Tampa, FL",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-tampa-fl",
+      "description": "Website design in Tampa, FL for businesses across the Tampa metro: custom sites, brand identity and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Tampa, Florida",
+          "sameAs": "https://www.wikidata.org/wiki/Q49255"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Hillsborough County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Pinellas County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Pasco County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Hernando County, Florida"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Tampa businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Florida",
+          "item": "https://www.lemurianstudios.com/services/web-design-florida"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Tampa, FL",
+          "item": "https://www.lemurianstudios.com/services/website-design-tampa-fl"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Should I have separate pages for Tampa and St. Petersburg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if you have something different to say about each, like different locations, staff or services. Two pages that differ only by city name help no one, and Google treats them as doorway pages."
+          }
+        }
+      ]
+    }
+  ]
+}
